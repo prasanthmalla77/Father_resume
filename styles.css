@@ -1,0 +1,243 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: lightblue;
+    width: 100%;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightslategrey;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  header  {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .profile-image {
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  tr:hover {
+    animation: shake 0.3s infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-2px) rotate(-1deg); }
+    40% { transform: translateX(2px) rotate(1deg); }
+    60% { transform: translateX(-2px) rotate(-1deg); }
+    80% { transform: translateX(2px) rotate(1deg); }
+    100% { transform: translateX(0); }
+  }
+
+  ol{
+    overflow: hidden;
+
+  }
+  .accordion {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .accordion-toggle {
+    display: none;
+  }
+  
+  .accordion-title {
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-toggle:checked + .accordion-title {
+    background-color: #ccc;
+  }
+  
+  .accordion-toggle:checked + .accordion-title + .accordion-content {
+    display: block;
+  }
+  .accordion1 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .accordion-toggle1 {
+    display: none;
+  }
+  
+  .accordion-title1 {
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-content1 {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-toggle1:checked + .accordion-title1 {
+    background-color: #ccc;
+  }
+  
+  .accordion-toggle1:checked + .accordion-title1 + .accordion-content1 {
+    display: block;
+  }
+  
+  .accordion3 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .accordion-toggle3 {
+    display: none;
+  }
+  
+  .accordion-title3 {
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-content3 {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-toggle3:checked + .accordion-title3 {
+    background-color: #ccc;
+  }
+  
+  .accordion-toggle3:checked + .accordion-title3 + .accordion-content3 {
+    display: block;
+  }
+  .publication {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .authors {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .journal {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .details {
+    margin-bottom: 5px;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .course {
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .duration {
+    margin-top: 5px;
+    font-style: italic;
+  }
+  @media (max-width: 600px) {
+    /* Styles for small screens */
+    main {
+      padding: 10px;
+    }
+    
+    h2 {
+      font-size: 18px;
+    }
+    
+    ul {
+      padding-left: 10px;
+    }
+    table {
+        padding-left: 10px;
+      }
+  }
